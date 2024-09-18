@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/***base/mobile***/
+
+body {
+    --primary-font: "Lora", serif;
+    --secondary-font: "Helvetica", Arial, sans-serif;
+    font-family: var(--secondary-font);
+    color: #333;
+}
+
+h1, h2, li {
+   font-family: var(--primary-font);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h1 a {
+    color: #333;
+}
+
+h1 a:active, h1 a:hover {
+ color: #333;
+}
+
+h2 {
+    text-align: left;
+}
+
+figure {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+.post-date {
+    text-align: right;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 5% 0 3% 0;
+}
+
+ul {
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 2% 0 2% 0;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li {
+    padding: 1% 0 1% 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:active {
+    color: #DEB887;
+}
+
+a:hover {
+    color: #00ddff;
+}
