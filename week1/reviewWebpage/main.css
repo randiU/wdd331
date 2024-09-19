@@ -68,3 +68,46 @@ a:active {
 a:hover {
     color: #00ddff;
 }
+
+/*******Large Screens********/
+
+@media screen and (min-width: 860px){
+    body {
+        width: 860px;
+        margin: auto;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+
+    header {
+        grid-column: 1/13;
+    }
+
+    ul {
+        display: flex;
+        gap: 1rem;
+        justify-content: right;
+        padding: .5rem 0 .5rem 0;
+        font-size: 1.2rem;
+    }
+
+    main {
+        grid-column: 1/13;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+
+    article {
+        grid-column: 1/13;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+
+    .post-date {
+        border-bottom: none;
+        border-right: 1px solid #d0d0d0;
+    }
+}
