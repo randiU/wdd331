@@ -36,6 +36,7 @@ figure {
 
 p {
     text-align: left;
+    font-weight: bold;
 }
 .post-date {
     text-align: right;
@@ -109,5 +110,27 @@ a:hover {
     .post-date {
         border-bottom: none;
         border-right: 1px solid #d0d0d0;
+        padding-right: 1rem;
+        grid-column: 1/4;
     }
+
+    .post-content {
+        grid-column: 4/13;
+        padding-left: 1rem;
+        padding-top: 2%;
+        border-bottom: 1px dotted #d0d0d0;
+    }
+
+    p {
+        padding-bottom: 2rem;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+   
+
+
 }
