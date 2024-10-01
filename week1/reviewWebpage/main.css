@@ -65,7 +65,7 @@ a {
 }
 
 a:active {
-    color: #DEB887;
+    color: #DEB887!important;
 }
 
 a:hover {

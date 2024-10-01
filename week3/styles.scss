@@ -1,0 +1,19 @@
+/* Remember that for SCSS you can either use the traditional CSS commenting syntax: /* comment */ /*or the SCSS syntax:*/ // comment . The SCSS comments however will not be included in the final .css that is generated. */
+
+//colors
+$body-background-color: darkred;
+$form-background-color: white;
+$input-color: white;
+$headlines-color : white;
+
+body {
+    background-color: $body-background-color;
+}
+
+#contactform {
+    background-color: $form-background-color;
+    input, textarea {
+        background-color: $input-color;
+        flex: 2;
+    }
+} 
