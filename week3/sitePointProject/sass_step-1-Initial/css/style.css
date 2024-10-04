@@ -58,6 +58,7 @@ input, select {
 }
 
 /* END RESET CSS */
+/* variables */
 /* BASE STYLES */
 body, select, input, textarea {
   color: #4E4F48;
@@ -104,7 +105,6 @@ button {
 }
 
 /* videofitness styles */
-/* variables */
 body {
   background-color: #4E4F48;
   font-family: "Trebuchet MS", san-serif;
@@ -129,7 +129,6 @@ header {
   position: relative;
   margin-bottom: 25px;
 }
-
 header h1 {
   text-indent: -9999px;
   height: 44px;

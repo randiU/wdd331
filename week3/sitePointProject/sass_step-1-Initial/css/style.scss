@@ -25,6 +25,10 @@ hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 
 input, select { vertical-align:middle; }
 /* END RESET CSS */
 
+/* variables */
+$base: #4E4F48;
+$accent:  #C2CF52;
+$basefont: "Trebuchet MS", san-serif;
 
 /* BASE STYLES */
 body, select, input, textarea { color:#4E4F48; }
@@ -52,14 +56,12 @@ button {  width: auto; overflow: visible; }
 
 /* videofitness styles */
 
-/* variables */
-$base: #4E4F48;
-$accent:  #C2CF52;
+
 
 
 body {
   background-color: $base;
-  font-family: "Trebuchet MS", san-serif;
+  font-family: $basefont;
   font-size: 80%;
 }
 #container {
@@ -78,11 +80,14 @@ header {
   border-bottom: 2px solid $accent;
   position: relative;
   margin-bottom: 25px;
+
+  h1 {
+    text-indent: -9999px;
+    height: 44px;
+  }
+
 }
-header h1 {
-  text-indent: -9999px;
-  height: 44px;
-}
+
 .branding #logo {
   display: block;
   position: relative;

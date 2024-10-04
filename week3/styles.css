@@ -3,4 +3,62 @@ body {
   background-color: darkred;
 }
 
+#contactform {
+  background-color: white;
+  /*@media (min-width: $break-small) {
+      & {
+         width: 90%;
+         max-width: 700px;
+         margin-left: auto;
+         margin-right: auto;
+         background-color: blue; 
+       } 
+   }
+
+  @media (min-width: $break-large) {
+      width: 70%;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: yellow;
+  }*/
+}
+#contactform input, #contactform textarea {
+  background-color: white;
+  flex: 2;
+}
+@media (min-width: 0px) {
+  #contactform {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+  }
+  #contactform fieldset div input {
+    width: 100%;
+  }
+}
+@media (min-width: 700px) {
+  #contactform {
+    width: 70%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+  }
+  #contactform fieldset div input {
+    width: 80%;
+  }
+}
+@media (min-width: 1000px) {
+  #contactform {
+    width: 70%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
